@@ -692,9 +692,9 @@ with tab_input:
 
         update_progress(0.05, f"执行命令: python product_analysis_pipeline.py ...")
 
-        # 构造命令（所有参数从侧边栏直接取）
+        # 自动选择当前 Python 解释器（Windows 本地 / Linux 云端通用）
         cmd = [
-            "C:\\Python312\\python.exe",
+            sys.executable,
             str(PIPELINE_SCRIPT),
             "--keywords", keywords_str,
             "--pages", str(pages),
