@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.log
+outputs/
+.streamlit/
+.workbuddy/
+.DS_Store
+*.xlsx
+!selection_rules.xlsx
