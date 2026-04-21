@@ -4,7 +4,6 @@ __pycache__/
 *.egg-info/
 *.log
 outputs/
-.streamlit/
 .workbuddy/
 .DS_Store
 *.xlsx
